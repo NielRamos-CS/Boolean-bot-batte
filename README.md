@@ -12,7 +12,8 @@ Leaderboard: Displays the number of wins and losses for each bot, dynamically up
 Add Bots: Click the "Add Bot" button to create bots. Customize each bot’s name, value, operation, and speed.
 Start the Battle: Once you've added bots, click the "Battle!" button to start the game. The bots will start moving and colliding in the arena.
 Watch the Results: When bots collide, their results are calculated using the selected Boolean operation, and the winner is determined. The leaderboard will be updated accordingly.
-Bot Configuration Details
+
+#Bot Configuration Details
 Bot Name: Name your bot.
 Value: Choose either 0 or 1.
 Operation: Choose one of the following Boolean operations:
@@ -24,6 +25,8 @@ Speed: Controls how quickly the bot moves within the arena. A range from 1 to 10
 
 #How It Works
 Each bot has a random position in a 5x5 arena grid.
-The bots move in random directions, and when two bots collide in the same grid position, their results are determined by their Boolean operations.
-The winner is determined based on the result of the operation. The bot with the higher result wins, and the loser is removed from the arena.
-The leaderboard is updated after each battle, showing each bot's wins and losses.****
+The bots move in random directions, and when two bots collide in the same grid position, their Boolean operations determine their results.
+The winner is determined based on the operation's result. The bot with the higher result wins, and the loser is removed from the arena.
+The leaderboard is updated after each battle, showing each bot's wins and losses.
+
+NIEL HALDANE G. RAMOS
